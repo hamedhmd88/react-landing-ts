@@ -8,7 +8,6 @@ import {
   FooterLinks,
   MenuItems,
   SocialLink,
-  TabCTA,
 } from "../types/type";
 
 export const menuItems: MenuItems = {

@@ -24,7 +24,7 @@ const items: Item[] = [
   },
 ];
 
-const ScrollImageOnMainScroll: React.FC = () => {
+const ScrollTriggered: React.FC = () => {
   const [activeIndex, setActiveIndex] = useState(0);
   const markerRef = useRef<HTMLDivElement | null>(null);
 
@@ -94,4 +94,4 @@ const ScrollImageOnMainScroll: React.FC = () => {
   );
 };
 
-export default ScrollImageOnMainScroll;
+export default ScrollTriggered;
