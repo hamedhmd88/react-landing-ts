@@ -9,7 +9,7 @@ import {
   MenuItems,
   SocialLink,
   TabCTA,
-} from "../src/types/type";
+} from "../types/type";
 
 export const menuItems: MenuItems = {
   platform: {
@@ -353,7 +353,7 @@ export const aboutFeatures: AboutFeature[] = [
     link: "https://help.webflow.com/hc/articles/34295931022099",
     linkText: "Explore documentation",
     video:
-      "https://dhygzobemt712.cloudfront.net/Web/home/2024-wxp/features/writing-assistant-square.mp4",
+    "https://dhygzobemt712.cloudfront.net/Web/home/2024-wxp/features/design-assistant-ai.mp4",
     poster:
       "https://cdn.prod.website-files.com/66e88746834b80507cdf7933/67057031236cd506cd0ae632_writing-assistant.avif",
   },
