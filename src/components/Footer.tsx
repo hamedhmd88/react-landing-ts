@@ -1,9 +1,7 @@
-import { Link } from 'react-router-dom';
-import { footerLinks, socialLinks } from '../data/data';
+import { Link } from "react-router-dom";
+import { footerLinks, socialLinks } from "../data/data";
 
 const Footer = () => {
-
-
   return (
     <footer className="bg-black text-white pt-20 pb-10">
       <div className="container mx-auto px-4">
@@ -14,7 +12,8 @@ const Footer = () => {
               <span className="text-blue-500">CodeTutor</span> UI
             </Link>
             <p className="text-gray-400 md:w-2/3">
-              The first-ever website experience platform that lets you create, manage and optimize your digital presence.
+              The first-ever website experience platform that lets you create,
+              manage and optimize your digital presence.
             </p>
           </div>
 
@@ -23,11 +22,13 @@ const Footer = () => {
             <div className="grid grid-cols-2 md:grid-cols-3 gap-8 items-center">
               {Object.values(footerLinks).map((section) => (
                 <div key={section.title}>
-                  <h3 className="text-lg font-semibold mb-4">{section.title}</h3>
+                  <h3 className="text-lg font-semibold mb-4">
+                    {section.title}
+                  </h3>
                   <ul className="space-y-2">
                     {section.links?.map((link) => (
                       <li key={link.name}>
-                        <Link 
+                        <Link
                           to={link.href || "#"}
                           className="text-gray-400 hover:text-white transition-colors"
                         >
