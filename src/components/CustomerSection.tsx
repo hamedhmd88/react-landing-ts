@@ -48,7 +48,6 @@ const CustomerSection = () => {
   return (
     <section className="overflow-hidden py-24 bg-primary">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-
         {/* 🧠 هدر بخش: متن تبلیغاتی و کنترل ناوبری */}
         <div className="flex justify-between items-center mb-16">
           <div className="max-w-[34rem] text-amber-50">
