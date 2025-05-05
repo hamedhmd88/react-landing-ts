@@ -52,8 +52,10 @@ yarn install
 ```
 
 
-## Sample Screenshot
-Below is a sample screenshot of the project :
+## 📸 Sample Screenshot
 
-![project](./Public/assets/project.jpg)
+Below is a sample screenshot of the project:
+
+![Project Screenshot](public/assets/project.jpg)
+
 
