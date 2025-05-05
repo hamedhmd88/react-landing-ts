@@ -124,7 +124,7 @@ const About = () => {
 
             {/* 🔁 سایر ویژگی‌ها با scroll-detection برای تغییر ویدیو */}
             <div ref={featuresRef} className="space-y-24">
-              {aboutFeatures.map((feature, index) => (
+              {aboutFeatures.map((feature) => (
                 <div
                   key={feature.id}
                   id={feature.id}
