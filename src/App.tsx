@@ -7,7 +7,6 @@ import FeaturesSection from "./components/FeaturesSection";
 import Footer from "./components/Footer";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
-import ScrollTriggered from "./components/ScrollTriggered";
 import TryNow from "./components/TryNow";
 
 function App() {
