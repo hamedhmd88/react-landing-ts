@@ -4,7 +4,8 @@ This project is a **modern single-page landing website** built with **React**, *
 
 ---
 
-
+## Live Demo
+You can check out the live demo of the project at the following link : [LandingTypeScript](https://react-landing-ts-mxne.vercel.app/)
 
 ---
 
@@ -39,7 +40,7 @@ This project is a **modern single-page landing website** built with **React**, *
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/your-repo-name.git
+git clone https://github.com/hamedhmd88/react-landing-ts.git
 
 # Navigate into the project directory
 cd your-repo-name
