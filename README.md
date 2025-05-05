@@ -49,8 +49,11 @@ npm install
 # or
 yarn install
 
+```
+
+
 ## Sample Screenshot
 Below is a sample screenshot of the project :
 
 ![project](./Public/assets/project.jpg)
-```
+
